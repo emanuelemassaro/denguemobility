@@ -12,5 +12,16 @@ The code is written in c++ and use MPI programs in a single machine to parallel 
 
 1  ## 0 Mobile phone data, 1 random model, 2 levy model, 3 radiation model
 
-5  ## Number of runs for each couple of parameters xv and br
+5  ## Number of runs for each couple of parameters `xv` and `br`
+
+
+### The main is the file `main.cpp` that calls the different functions
+
+### `epidemic.h` contains the epidemiological model for both mosquitoes and humans
+
+### `mobiliy.h` contains the mobility dynamics for humans agents
+
+### You can change the values of number of mosquitoes per person `xv` and the bite rate `br` in the file `main.cpp` lines `61` and `62`.
+
+
 
