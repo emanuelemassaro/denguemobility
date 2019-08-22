@@ -8,9 +8,9 @@ The code is written in c++ and use MPI programs in a single machine to parallel 
 
 `-dmSL main1 mpirun -np 10 ./mainreal 1 2014 5`
 
-a. 10 ## Number of cores you want to use
+10 ## Number of cores you want to use
 
-b. 1  ## 0 Mobile phone data, 1 random model, 2 levy model, 3 radiation model
+1  ## 0 Mobile phone data, 1 random model, 2 levy model, 3 radiation model
 
-c. 5  ## Number of runs for each couple of parameters xv and br
+5  ## Number of runs for each couple of parameters xv and br
 
