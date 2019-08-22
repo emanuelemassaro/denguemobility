@@ -4,8 +4,8 @@ We share the code we used in Massaro et al. "Assessing the interplay between hum
 
 The code is written in c++ and use MPI programs in a single machine to parallel process the code.
 
-mpicxx -o main1 main1.cpp Node.cpp Agent.cpp -std=gnu++11
--dmSL main1 mpirun -np 10 ./mainreal 1 2014 5
+`mpicxx -o main1 main1.cpp Node.cpp Agent.cpp -std=gnu++11`
+`-dmSL main1 mpirun -np 10 ./mainreal 1 2014 5`
 
 10 ## Number of cores you want to use
 1  ## 0 Mobile phone data, 1 random model, 2 levy model, 3 radiation model
