@@ -2,7 +2,7 @@
 
 We share the code we used in Massaro et al. "Assessing the interplay between human mobility and mosquito borne diseases in urban environments" (2019).
 
-The code is written in c++ and use MPI programs in a single machine to parallel process the code.
+The code is written in c++ and use MPI programs in a single machine to parallel process the code. You can run the code from a `unix` terminal in the following way
 
 `mpicxx -o main1 main1.cpp Node.cpp Agent.cpp -std=gnu++11`
 
